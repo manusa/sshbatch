@@ -61,7 +61,7 @@ class SrvCopy {
 		fromSession.setPassword(password)
 		fromSession.connect(10000)
 		println("Source Session connected [$sourceHost]")
-		final Session destinationSession = jsch.getSession(Variables.USER, destinationHost)
+		final Session destinationSession = jsch.getSession(user, destinationHost)
 		destinationSession.setConfig(config)
 		destinationSession.setPassword(password)
 		destinationSession.connect(10000)
