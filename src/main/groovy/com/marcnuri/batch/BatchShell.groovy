@@ -16,12 +16,6 @@
 package com.marcnuri.batch
 
 
-// https://mvnrepository.com/artifact/com.jcraft/jsch
-@Grapes([
-		@Grab(group = 'com.jcraft', module = 'jsch', version = '0.1.54'),
-		@groovy.lang.GrabConfig(systemClassLoader = true)
-])
-
 import java.io.InputStream
 import java.io.BufferedReader
 import java.io.InputStreamReader
