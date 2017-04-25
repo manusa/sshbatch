@@ -10,3 +10,7 @@ dependencies {
 	compile 'org.codehaus.groovy:groovy-all:2.4.5'
 	compile 'com.jcraft:jsch:0.1.54'
 }
+
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
